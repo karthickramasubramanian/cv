@@ -3,6 +3,13 @@ body
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
+  /*color: #f9f3f3;*/
+}
+
+.dp
+{
+  width: 10%;
 }
 
 h1
@@ -83,7 +90,10 @@ hr {
 }
 .bottom-container
 {
-  color: #11999E;
+  /*color: #66BFBF;*/
+  background-color: #e3fdfd;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
 /*.Skills
 {
@@ -93,6 +103,8 @@ hr {
 .Para1
 {
   color: #66BFBF;
+  width: 20%;
+  margin: 50px auto 0 auto;
 }
 p
 {
@@ -118,4 +130,70 @@ p
   text-align: left;
   line-height: 2;
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*.kra
+{
+  float: left;
+}
+*/
+.contact-me
+{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+a
+{
+  color: #11999E;
+  /*color: #66BFBF;*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.copyright
+{
+  color: #11999E;
+}
+a:hover
+{
+  color: #EAF6F6;
 }
